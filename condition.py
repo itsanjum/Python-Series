@@ -24,4 +24,30 @@
 # else :
 #     print("The number is odd")    
 
+#IF-ELIf statement
 
+# marks=int(input("Enter your marks "))
+# if marks >= 90:
+#     print("Grade A")
+# elif marks >= 75:
+#     print("Grade B")
+# elif marks >= 50:
+#     print("Grade C")
+# else :
+#     print("Grade D")    
+
+
+num1 =int(input("Enter your first number "))
+num2 =int(input("Enter your Second number "))
+operator= input("Enter the operator (+,-,*,/) : ")
+match operator :
+    case "+" :
+        print("Result : " ,num1 + num2)
+    case "-" : 
+        print("Result : " ,num1 - num2)
+    case "*" : 
+        print("Result : " ,num1 * num2)
+    case "/" : 
+        print("Result : " ,num1 / num2)
+    case "_" : 
+        print("Invalid Operator")
